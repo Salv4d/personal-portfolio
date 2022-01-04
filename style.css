@@ -61,6 +61,7 @@ p {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 50pt;
   color: #2d54c0;
 }
@@ -103,5 +104,11 @@ p {
 @media (max-height: 625px) {
   #projects {
     height: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  #navbar li {
+    margin: 5px;
   }
 }
